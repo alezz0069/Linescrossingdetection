@@ -31,6 +31,7 @@ The notebook (`Correccion_intersecciones.ipynb`) performs the following tasks:
 
 ## Dependencies
 
-- OpenCV
+- OpenCV (specifically `opencv-python-headless==4.5.3.56` for headless environments)
 - NumPy
 - Pandas
+- Matplotlib
