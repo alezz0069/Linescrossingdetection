@@ -20,10 +20,10 @@ The notebook (`Correccion_intersecciones.ipynb`) performs the following tasks:
    cd <repository-directory>
    ```
 
-2. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+2. Run the setup script to install the necessary dependencies. This will install both system packages and Python libraries:
+```bash
+chmod +x setup.sh
+./setup.sh
 
 3. Launch Jupyter Notebook or Jupyter Lab and open the `Correccion_intersecciones.ipynb` notebook.
 
@@ -31,7 +31,8 @@ The notebook (`Correccion_intersecciones.ipynb`) performs the following tasks:
 
 ## Dependencies
 
-- OpenCV (specifically `opencv-python-headless==4.5.3.56` for headless environments)
+- OpenCV (specifically opencv-python-headless==4.5.3.56 for headless environments)
 - NumPy
 - Pandas
 - Matplotlib
+- Poppler-utils (for pdf2image)
