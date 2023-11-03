@@ -29,7 +29,6 @@ This repository contains scripts that use image processing techniques to detect 
 
 4. Use the scripts as required. For instance:
    ```bash
-   python pdf_to_png_converter.py
    python Correccion_intersecciones.py
    ```
 
