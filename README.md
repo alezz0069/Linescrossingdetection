@@ -24,6 +24,7 @@ The notebook (`Correccion_intersecciones.ipynb`) performs the following tasks:
 ```bash
 chmod +x setup.sh
 ./setup.sh
+```
 
 3. Launch Jupyter Notebook or Jupyter Lab and open the `Correccion_intersecciones.ipynb` notebook.
 
