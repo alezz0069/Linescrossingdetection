@@ -1,12 +1,19 @@
-
+import os
 import cv2
 import numpy as np
 import pandas as pd
-
 import matplotlib.pyplot as plt
 
+# Integrate the pdf_to_png_converter.py
+exec(open('pdf_to_png_converter.py').read())
+
 # Load the image
-image = cv2.imread('/content/ex1cross.png')
+image_path = '/content/ex1cross.png'  # You can adjust this path if necessary
+image = cv2.imread(image_path)
+
+if image is None:
+    raise ValueError("Failed to load the image. Check the image path.")
+
 
 if image is None:
     raise ValueError("Failed to load the image. Check the image path.")
@@ -170,4 +177,3 @@ plt.figure(figsize=(40, 40))
 plt.imshow(image_rgb)
 plt.axis('off')
 plt.show()
-
